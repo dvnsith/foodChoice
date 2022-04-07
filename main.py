@@ -54,6 +54,8 @@ def main():
                 print(menu["Thai"]["chicken"])
             elif(protein == "seafood"):
                 print(menu["Thai"]["seafood"])
+            elif(protein == "plant"):
+                print(menu["Thai"]["plant"])
             else:
                 print("Enter valid protein")
         elif(food == "Italian"):
@@ -65,6 +67,8 @@ def main():
                 print(menu["Italian"]["chicken"])
             elif(protein == "seafood"):
                 print(menu["Italian"]["seafood"])
+            elif(protein == "plant"):
+                print(menu["Italian"]["plant"])
             else:
                 print("Enter valid protein")
         else:
