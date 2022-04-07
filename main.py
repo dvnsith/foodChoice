@@ -23,7 +23,7 @@ def main():
                       "seafood": "Cioppino"                                                                                 
                   }                                                                                                         
              }
-	isHungry = 0
+    isHungry = 0
     hungry = input("Are you hungry? ").strip().capitalize()
   
     if(hungry == "Y" or hungry == "Yes"):
