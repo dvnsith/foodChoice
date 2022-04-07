@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-def main():                                                                                                               
+def foodChoice():                                                                                                               
     menu = {                                                                                                              
             "American" : {                                                                                                
                        "beef": "Hamburger and fries",                                                                        
@@ -41,4 +41,6 @@ def main():
              print("Enter a food category")
          isHungry = 0
  
+def main():
+    foodChoice()
 main()  
