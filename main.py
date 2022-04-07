@@ -47,5 +47,5 @@ def foodChoice():
 def main():
     foodChoice()
     
-if __name__ == "__main__"
+if __name__ == "__main__":
     main()  
