@@ -2,20 +2,20 @@
 def main():                                                                                                               
     menu = {                                                                                                              
             "American" : {                                                                                                
-                     "beef": "Hamburger and fries",                                                                        
+                       "beef": "Hamburger and fries",                                                                        
                        "chicken": "Wings and beer",                                                                          
                        "pork": "Ribs and beans",                                                                             
                        "plant": "no plant-based food found",                                                                 
-                      "seafood": "lobster sandwhich and chips"                                                              
+                       "seafood": "lobster sandwhich and chips"                                                              
                   },                                                                                                        
-              "Thai": {                                                                                                     
-                     "beef": "Basil Beef",                                                                                 
+             "Thai": {                                                                                                     
+                      "beef": "Basil Beef",                                                                                 
                       "chicken": "Coconut curry chicken",                                                                   
                       "pork": "Grilled pork skewers",                                                                       
                       "plant": "Stir-fried veggies",                                                                        
                       "seafood": "Garlic prawns"                                                                            
                   },                                                                                                        
-              "Italian":{                                                                                                   
+             "Italian": {                                                                                                   
                       "beef": "Spaghetti and beef meatballs",                                                               
                       "chicken": "Parmesan chicken alfredo",                                                                
                       "pork": "Porchetta",                                                                                  
