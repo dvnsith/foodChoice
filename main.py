@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-def foodChoice():                                                                                                               
-    menu = {                                                                                                              
+
+menu = {                                                                                                              
             "American" : {                                                                                                
                        "beef": "Hamburger and fries",                                                                        
                        "chicken": "Wings and beer",                                                                          
@@ -23,6 +23,9 @@ def foodChoice():
                       "seafood": "Cioppino"                                                                                 
                   }                                                                                                         
              }
+
+def foodChoice():                                                                                                               
+    global menu
     isHungry = 0
     hungry = input("Are you hungry? ").strip().capitalize()
   
